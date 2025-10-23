@@ -52,7 +52,7 @@ parser = argparse.ArgumentParser(
 )
 parser.add_argument(
     "--root_dir",
-    default="./data_qm9",
+    default="./data_jarvis",
     help="Folder with id_props.csv, structure files",
 )
 parser.add_argument(
