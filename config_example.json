@@ -1,7 +1,7 @@
  {
    "dataset": "user_data",
    "target": "target",
-   "filename": "jarvis-dft",
+   "filename": "example",
    "target_key": "energy",
    "output_dir":"./output",
    "read_existing":true,
