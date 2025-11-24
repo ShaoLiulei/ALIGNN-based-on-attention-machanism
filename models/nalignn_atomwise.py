@@ -245,10 +245,6 @@ def cutoff_function_based_edges(r, inner_cutoff=4, exponent=3):
 #         if self.residual:
 #             x = node_feats + x
 #             y = edge_feats + y
-#         # 输出x、y的shape并抛出错误
-#         # print(x.shape)
-#         # print(y.shape)
-#         # raise "error"
 #         return x, y
 
 class EdgeGatedGraphConv(nn.Module):
